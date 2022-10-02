@@ -10,8 +10,21 @@ namespace Tutorial_Classes
     {
         static void Main(string[] args)
         {
+            Course course1 = new Course();
+
+            course1._name = "Programming 122";
+            course1._courseNumber = "CSI_122_2";
+            course1._teacher = "William Cram";
+            course1._student = "Hannah Angel";
+
+            Console.WriteLine($"Course Name: {course1._name}");
+            Console.WriteLine($"Course Number: {course1._courseNumber}");
+            Console.WriteLine($"Course Teacher: {course1._teacher}");
+            Console.WriteLine($"Course Student: {course1._student}");
 
 
+
+            Console.ReadKey();
 
         } // Main
         

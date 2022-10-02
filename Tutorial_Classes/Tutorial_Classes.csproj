@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Course.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -62,6 +63,10 @@
     <None Include="Tutorial\Step_7.docx" />
     <None Include="Tutorial\Step_8.docx" />
     <None Include="Tutorial\Step_9.docx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Tutorial\Step_1.txt" />
+    <Content Include="Tutorial\Step_2.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
