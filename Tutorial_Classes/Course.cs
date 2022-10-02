@@ -15,6 +15,12 @@ namespace Tutorial_Classes
         public string _student;
         // Constructor
 
+        public Course(string name, string courseNumber)
+        {
+            _name = name;
+            _courseNumber = courseNumber;
+        } // Course
+
         // Properties
         // Methods
 
