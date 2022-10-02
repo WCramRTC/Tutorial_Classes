@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Remoting.Messaging;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -9,7 +10,7 @@ namespace Tutorial_Classes
     internal class Course
     {
         // Fields
-        public string _name;
+        string _name;
         public string _courseNumber;
         public string _teacher;
         public string _student;
@@ -22,6 +23,19 @@ namespace Tutorial_Classes
         } // Course
 
         // Properties
+        public string Name
+        {
+            get
+            {
+                return _name;
+            }
+            set
+            {
+                _name = value;
+            }
+        }
+
+
         // Methods
 
     } // class

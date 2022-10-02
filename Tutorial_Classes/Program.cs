@@ -12,7 +12,7 @@ namespace Tutorial_Classes
         {
             Course course1 = new Course("Programming 122", "CSI_122_2");
 
-            Console.WriteLine($"Course Name: {course1._name}");
+            Console.WriteLine($"Course Name: {course1.Name}");
             Console.WriteLine($"Course Number: {course1._courseNumber}");
             Console.WriteLine($"Course Teacher: {course1._teacher}");
             Console.WriteLine($"Course Student: {course1._student}");
