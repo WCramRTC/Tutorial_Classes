@@ -48,7 +48,20 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Programming 2 Tutorial.docx" />
+    <None Include="Tutorial\OutLine.docx" />
+    <None Include="Tutorial\Programming 2 Tutorial.docx" />
+    <None Include="Tutorial\Step_1.docx" />
+    <None Include="Tutorial\Step_10.docx" />
+    <None Include="Tutorial\Step_11.docx" />
+    <None Include="Tutorial\Step_12.docx" />
+    <None Include="Tutorial\Step_2.docx" />
+    <None Include="Tutorial\Step_3.docx" />
+    <None Include="Tutorial\Step_4.docx" />
+    <None Include="Tutorial\Step_5.docx" />
+    <None Include="Tutorial\Step_6.docx" />
+    <None Include="Tutorial\Step_7.docx" />
+    <None Include="Tutorial\Step_8.docx" />
+    <None Include="Tutorial\Step_9.docx" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
