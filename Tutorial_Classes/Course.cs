@@ -12,7 +12,7 @@ namespace Tutorial_Classes
         // Fields
         string _name;
         string _courseNumber;
-        string _teacher;
+        Teacher _teacher;
         string _student;
         // Constructor
 
@@ -20,6 +20,7 @@ namespace Tutorial_Classes
         {
             _name = name;
             _courseNumber = courseNumber;
+            _teacher = new Teacher("None", "Assigned");
         } // Course
 
         // Properties
@@ -47,7 +48,7 @@ namespace Tutorial_Classes
             }
         }
 
-        public string Teacher
+        public Teacher Teacher
         {
             get
             {

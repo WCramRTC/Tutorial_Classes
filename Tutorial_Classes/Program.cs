@@ -9,6 +9,7 @@ namespace Tutorial_Classes
     internal class Program
     {
         static List<Course> courses = new List<Course>();
+        static List<Teacher> teachers = new List<Teacher>();
 
         static void Main(string[] args)
         {
@@ -19,6 +20,11 @@ namespace Tutorial_Classes
             courses.Add(course1);
 
             courses.Add(new Course("Programming 252", "CSI_252_1"));
+
+            Teacher teacher1 = new Teacher("William", "Cram");
+            teachers.Add(teacher1);
+
+            courses[0].Teacher = teachers[0];
 
             DisplayCourses();
 
@@ -33,7 +39,7 @@ namespace Tutorial_Classes
             {
                 Console.WriteLine($"Course Name: {courses[i].Name}");
                 Console.WriteLine($"Course Number: {courses[i].CourseNumber}");
-                Console.WriteLine($"Course Teacher: {courses[i].Teacher}");
+                Console.WriteLine($"Course Teacher: {courses[i].Teacher.FirstName} {courses[i].Teacher.LastName}");
                 Console.WriteLine($"Course Student: {courses[i].Student}");
                 Console.WriteLine();
             }
