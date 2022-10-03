@@ -11,9 +11,9 @@ namespace Tutorial_Classes
     {
         // Fields
         string _name;
-        public string _courseNumber;
-        public string _teacher;
-        public string _student;
+        string _courseNumber;
+        string _teacher;
+        string _student;
         // Constructor
 
         public Course(string name, string courseNumber)
@@ -32,6 +32,42 @@ namespace Tutorial_Classes
             set
             {
                 _name = value;
+            }
+        } // Name
+
+        public string CourseNumber
+        {
+            get
+            {
+                return _courseNumber;
+            }
+            set
+            {
+                _courseNumber = value;
+            }
+        }
+
+        public string Teacher
+        {
+            get
+            {
+                return _teacher;
+            }
+            set
+            {
+                _teacher = value;
+            }
+        } // Teacher
+
+        public string Student
+        {
+            get
+            {
+                return _student;
+            }
+            set
+            {
+                _student = value;
             }
         }
 
