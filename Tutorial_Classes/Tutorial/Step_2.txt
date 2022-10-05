@@ -1,0 +1,8 @@
+﻿Step Two – Fields:
+Create and explain fields
+-	Explain why we consider two fields
+-	User place holder for teacher and strings
+-	Make them public ( Save access modifies for later )
+-	Create a Course instance in Program ( explain instance )
+-	Have change name, teacher, and student ( explain dot modifier )
+-	Have display name, teacher, and student

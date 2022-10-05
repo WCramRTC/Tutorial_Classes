@@ -1,0 +1,16 @@
+﻿Step One – Page One:  
+Building your first class
+-	Display how to add a class to your project
+o	Right Clicked
+o	Add
+o	Class
+o	Give a name
+	- Explain how we think about the class we want to make
+
+-	Display how to organize classes. Comment…
+o	Fields
+o	Constructor
+o	Properties
+o	Methods
+
+* Show how to copy and past instructors into the projects and comment out to easily follow progress

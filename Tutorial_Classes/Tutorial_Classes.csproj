@@ -43,11 +43,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Course.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Student.cs" />
+    <Compile Include="Teacher.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Tutorial\OutLine.docx" />
+    <None Include="Tutorial\Programming 2 Tutorial.docx" />
+    <None Include="Tutorial\Step_1.docx" />
+    <None Include="Tutorial\Step_10.docx" />
+    <None Include="Tutorial\Step_11.docx" />
+    <None Include="Tutorial\Step_12.docx" />
+    <None Include="Tutorial\Step_2.docx" />
+    <None Include="Tutorial\Step_3.docx" />
+    <None Include="Tutorial\Step_4.docx" />
+    <None Include="Tutorial\Step_5.docx" />
+    <None Include="Tutorial\Step_6.docx" />
+    <None Include="Tutorial\Step_7.docx" />
+    <None Include="Tutorial\Step_8.docx" />
+    <None Include="Tutorial\Step_9.docx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Tutorial\Step_1.txt" />
+    <Content Include="Tutorial\Step_2.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
