@@ -13,7 +13,7 @@ namespace Tutorial_Classes
         string _name;
         string _courseNumber;
         Teacher _teacher;
-        Student _student;
+        List<Student> _students;
         // Constructor
 
         public Course(string name, string courseNumber)
@@ -21,7 +21,7 @@ namespace Tutorial_Classes
             _name = name;
             _courseNumber = courseNumber;
             _teacher = new Teacher("None", "Assigned");
-            _student = new Student("None", "Assigned");
+            _students = new List<Student>();
         } // Course
 
         // Properties
@@ -61,16 +61,13 @@ namespace Tutorial_Classes
             }
         } // Teacher
 
-        public Student Student
+        public List<Student> Students
         {
             get
             {
-                return _student;
+                return _students;
             }
-            set
-            {
-                _student = value;
-            }
+
         }
 
 

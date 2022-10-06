@@ -12,12 +12,14 @@ namespace Tutorial_Classes
         // fields
         string _firstName;
         string _lastName;
+        List<Course> _courses;
 
         // constructor
         public Teacher(string firstName, string lastName)
         {
             _firstName = firstName;
             _lastName = lastName;
+            _courses = new List<Course>();
         } // Teacher
 
         // properties
@@ -44,6 +46,14 @@ namespace Tutorial_Classes
                 _lastName = value;
             }
         } // LastName
+
+        public List<Course> Courses
+        {
+            get
+            {
+                return _courses;
+            }
+        } // Courses
 
         // method
 

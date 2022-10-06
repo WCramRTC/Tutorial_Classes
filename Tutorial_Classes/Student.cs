@@ -11,11 +11,13 @@ namespace Tutorial_Classes
 
         string _firstName;
         string _lastName;
+        List<Course> _courses;
 
         public Student(string firstName, string lastName)
         {
             _firstName = firstName;
             _lastName = lastName;
+            _courses = new List<Course>();
         } // Student
 
         public string FirstName
@@ -41,6 +43,14 @@ namespace Tutorial_Classes
                 _lastName = value;
             }
         } // LastName
+
+        public List<Course> Courses
+        {
+            get
+            {
+                return _courses;
+            }
+        } // Courses
 
     } // class
 
